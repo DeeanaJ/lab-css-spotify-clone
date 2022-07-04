@@ -3,6 +3,200 @@ Colors:
 
 Text: 1A1A1A
 Green: #00B172
-White: #FFF
+White: 
 
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+nav > img {
+    height: 45px;
+    
+}
+
+ul {
+    display:flex;
+    width: 450px;
+    justify-content: space-around;
+    list-style: none;
+    margin-right: 1.3em;
+}
+
+nav {
+    position: fixed;
+    height: 64px;
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 24px;
+    background-color: #FFF;
+
+
+}
+
+
+.hero {
+    background-image: url(/images/landing.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    color:#FFF;
+}
+
+.hero p {
+    color: #FFf; 
+    font-weight: 100;
+    font-size: 1.4em;
+    width: 500px;
+    text-align: center;
+}
+
+p, li {
+   color: #1A1A1A;
+   
+
+}
+
+body{
+    font-family: "lato";
+    margin: 0;
+}
+
+article img {
+    height: 50px;
+}
+
+.footer {
+    background-color: #00B172;
+    position: relative;
+    margin: 0 30px;
+    padding: 60px 120px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    font-size: 4em;
+}
+
+a {
+    text-decoration: none;
+    color: #1A1A1A;
+
+}
+
+h2 {
+    text-decoration: underline;
+    text-underline-offset: 9px;
+    margin: 30px 0;
+}
+
+#secondtitle {
+    text-decoration-color: #00B172;
+    text-align: center;
+    
+}
+
+#thirdtitle {
+    text-decoration-color: #FFF;
+    color:#FFF;
+    font-size: 1.80em;
+}
+
+.features {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 25px;
+}
+
+.whats {
+    height: 300px;
+    padding-bottom: 50px;
+}
+.whats article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    flex: 33% 0 0;
+    text-align: center;
+    
+}
+.whats article p {
+    width: 215px;
+    font-size: 1.1em;
+}
+
+h3 {
+    color: #00B172;
+    font-weight: 900;
+    font-size: 20px;
+}
+#articles, #articles p {
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    width: 235px;
+
+}
+
+#logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100px;
+}
+.footer > div {
+    display: flex;
+    justify-content: space-between;
+
+}
+#kanyewest {
+    width: 275px;
+
+}
+.footer p {
+    font-weight: 300;
+
+}
+h4 {
+    font-size: 1.3em;
+}
+
+@media (max-width: 1024px) {
+    #kanyewest {
+        width: 100%;
+        max-width: 34%;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .footer {
+        margin: 0 0;
+        width: 100%;
+        height: 100%;
+
+    }
+    .footer > div {
+        flex-direction: column;
+        }
+
+    .features {
+        flex-direction: column;
+    }
+
+    .whats {
+        height: 100%;
+    }
+
+    h1 {
+        text-align: center;
+    }
+}
